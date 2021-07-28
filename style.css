@@ -1,0 +1,461 @@
+body{
+	font: 15px/1.5 arial, halvetica,sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+}
+/*global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+header ul
+{
+	margin:0;
+	padding:0;
+}
+.darkback
+{
+   background-color:rgb(53,66,74);
+   padding:10px;
+   margin-top:10px;
+   margin-bottom:10px;
+   color:white;
+}
+.button_1
+{
+	height:38px;
+	background-color:rgb(53,66,74);
+	color:white;
+	border:none;
+	padding:10px 20px 10px 20px;
+	margin-top:5px;
+	text-decoration:none;
+	font-weight: bold;
+	-webkit-transition-duration:0.3s;
+	transition-duration:0.4s;
+	cursor:pointer;
+	margin-bottom:12px;
+}
+.button_1:hover
+{
+	background-color:red;
+	color:black;
+}
+
+#top2
+{
+	
+	float:right;
+	color:#ffffff;
+}
+/*header*/
+header{
+	background:rgb(53,66,74);
+	color:white;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:tomato 3px solid;
+}
+header a
+{
+	color:white;
+	text-decoration:none;
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+header li
+{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header #hostname
+{
+	float:left;
+    text-transform:uppercase;
+    color:white;
+}
+header #hostname h1
+{
+	margin:0;
+}
+header nav
+{
+	float:right;
+	margin-top:10px;
+}
+header .highlight, header .current a
+{
+	color:#e8491d;
+	font-weight:bold;
+}
+header .small
+{
+	font-size:12px;
+	color:black;
+}
+header a:hover{
+	color:rgb(109,110,106);
+	font-weight:bold;
+
+}
+/*bodypart*/
+#imagepart
+{
+	min-height:400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/wall.jpg");
+	text-align:center;
+}
+#imagepart h1
+{
+	color:white;
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+#imagepart p
+{
+	color:white;
+	font-size:20px;
+}
+#bodypart
+{
+	min-height:300px;
+	background-color:rgb(83,83,83);
+	text-align:left;
+	color:white;
+}
+#bodypart p
+{
+    text-align:justify;
+    padding-left:10px;
+    margin-top:20px;
+
+}
+#bodypart img
+{
+	width:10%;
+	padding:0 15px 0 15px;
+	/*linkpart */
+}
+#linkpart
+{
+	margin-top:2px;
+	min-height:250px;
+	background-color:rgb(83,83,83);
+}
+
+#linkpart .intable 
+{
+    width:30%;
+    float:left;
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+
+#linkpart .intable ul
+{
+	text-align:left;
+}
+#linkpart .intable h1
+{
+	text-align:left;
+	color:#e8491d;
+}
+
+#linkpart .intable a
+{
+	text-decoration:none;
+	color:#ffffff;
+}
+#linkpart a:hover
+{
+	color:red;
+	font-size:15px;
+	padding:5px;
+	-webkit-transition-duration:0.3s;
+	transition-duration:0.4s;
+}
+div.coursedetails
+{
+	border-top:2px solid rgb(40,41,35);
+	text-align:justify;
+	padding:0 20px 0 20px;
+	margin-top:75px;
+}
+.coursedetails p
+{
+	padding:10px 30px 10px 30px;
+}
+.coursedetails h3
+{
+	color : #e8491d;
+}
+
+div.list li
+{
+	float:left;
+	display:inline;
+    
+ }
+ div.list a
+ {
+ 	 
+ 	 text-decoration:none;
+ 	 color:#e8491d;
+     float:left;
+     display:inline;
+ }
+#courseshead
+{
+	margin-left:50px;
+	margin-top:20px;
+}
+/*admission sidebar*/
+
+
+.container li
+{
+	list-style: none;
+}
+.container .ides ul
+{
+	float:left;
+	display:inline;
+    
+}
+
+.container .image
+{
+	border:0px solid black;
+	width:auto;
+	height:auto;
+	display:inline;
+	float:left;
+	margin:30px 10px 30px 10px;
+}
+
+.container #laptops
+{
+	display:inline;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:#e8491d;
+  -webkit-transition-duration:0.3s;
+	transition-duration:0.4s;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding:10px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*footerpart*/
+.footer1
+{
+	background-color:#e8491d;
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+}
+.footer1 a
+{
+	text-decoration:none;
+	color:black;
+}
+/*media quries*/
+@media(max-width:768px)
+{
+	header #hostname,
+	header nav,
+	header nav li,
+	#linkpart .intable,
+	article #facultydetails,
+	aside #facultydetails,
+	.container #laptops
+
+	{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	.container .ides ul
+	{
+      float:none;
+      padding-top:20px;
+      width:100%;
+      text-align:center;
+      margin-left:0px;
+	}
+	.container .ides h3
+	{
+		text-align:justify;
+	}
+     
+	header{
+		padding-bottom:20px;	
+	}
+	#imagepart h1
+	{
+		margin-top:40px;
+	}
+	#imagepart
+    {
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/wall.jpg");
+	text-align:center;
+    }
+	.container .image img
+	{
+        width:100%;
+        height:auto;
+        max-width:400px;
+		float:none;
+	}
+	#facultydetails button
+	{
+		display:block;
+		width:100%;
+	}
+	#facultydetails form input[type="email"], .writeus input, .writeus textarea
+	{
+		width:100%;
+		display:block;
+	}
+	
+} 
+
+
+
+
+
+
+.side-nav
+{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index: 1;
+	top:0;
+	left: 0;
+	background-color:#000;
+	opacity:0.9;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition: 0.5s;
+}
+.side-nav a
+{
+	padding:5px 5px 5px 10px;
+	text-decoration: none;
+	font-size: 18px;
+	color:#ccc;
+	display:block;
+	transition:0.3s;
+
+}
+.side-nav a:hover
+{
+
+	color:red;
+
+}
+.side-nav .btn-close
+{
+	position:absolute;
+	top:0;
+	right: 22px;
+	font-size:26px;
+	margin-left:50px;
+}
+@media(max-width:568px)
+ {
+ 	.container .mainlink ul a
+ 	{
+ 		display:none;
+ 	}
+ 	.open-slide
+ 	{
+     position:absolute;
+     top:10;
+	 left:22px;
+ 	}
+ 	.side-nav a
+    {
+	padding:10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	color:#fff;
+	background-color:#000;
+	display:block;
+	transition:0.5s;
+    }
+
+.side-nav
+{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index: 1;
+	top:0;
+	left:0;
+	background-color:black;
+	opacity:1;
+	overflow-x: hidden;
+	margin-top:130px;
+	transition: 0.2s;
+}
+ }
+@media(min-width:568px)
+ {
+ 	.open-slide
+ 	{
+ 		display:none;
+ 	}
+ }
